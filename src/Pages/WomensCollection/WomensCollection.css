@@ -1,0 +1,132 @@
+.womens_Products {
+  padding-top: 56px;
+}
+.womens_Products .featuredimg_container {
+  margin: 12px;
+  box-shadow: 0 0 12px rgb(163, 163, 163);
+}
+.womens_Products .featuredimg_container .featured_img {
+  width: 100%;
+}
+.womens_Products .spinner {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 36px;
+}
+.womens_Products .spinner .spin {
+  height: 50px;
+  width: 70%;
+  -webkit-animation: spin infinite 5s linear;
+          animation: spin infinite 5s linear;
+  z-index: -1;
+}
+@-webkit-keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.womens_Products h3 {
+  background-color: black;
+  color: white;
+  height: 60px;
+  font-size: 24px;
+  margin: 0 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  box-shadow: 0px 0px 6px black;
+}
+.womens_Products .mapping_Container .womens_Mapping {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 0px 24px darkgray;
+  margin: 12px auto;
+  padding: 12px;
+  width: 70%;
+}
+.womens_Products .mapping_Container .womens_Mapping a {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
+.womens_Products .mapping_Container .womens_Mapping a img {
+  width: 60%;
+  padding: 12px;
+}
+.womens_Products .mapping_Container .womens_Mapping a h1 {
+  display: flex;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 400;
+}
+.womens_Products .mapping_Container .womens_Mapping p {
+  margin: 12px;
+  color: darkred;
+  font-weight: 700;
+}
+.womens_Products .mapping_Container .womens_Mapping button {
+  margin: 12px;
+  background-color: black;
+  border: none;
+  width: 100px;
+  height: 40px;
+  font-size: 16px;
+  color: white;
+  border-radius: 5%;
+}
+
+@media (min-width: 768px) {
+  .womens_Products .mapping_Container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .womens_Products .mapping_Container .womens_Mapping {
+    width: 30%;
+    margin: 24px;
+  }
+  .womens_Products .mapping_Container .womens_Mapping a img {
+    height: 200px;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+}
+@media (min-width: 1280px) {
+  .womens_Products {
+    padding-top: 100px;
+  }
+  .womens_Products .mapping_Container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .womens_Products .mapping_Container .womens_Mapping {
+    width: 30%;
+  }
+  .womens_Products .featuredimg_container {
+    margin: 36px;
+    box-shadow: 0 0 36px rgb(92, 92, 92);
+  }
+  .womens_Products .featuredimg_container .featured_img {
+    width: 100%;
+    height: 200px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}/*# sourceMappingURL=WomensCollection.css.map */

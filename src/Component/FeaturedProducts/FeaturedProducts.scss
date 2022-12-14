@@ -1,0 +1,116 @@
+.featured_Products{
+    .featuredimg_container{
+        margin: 12px;
+        box-shadow: 0 0 12px rgb(255, 181, 132);
+        .featured_img {
+            width: 100%;
+        }
+    }
+    h3 {
+        background-color: black;
+        color: white;
+        height: 60px;
+        font-size: 24px;
+        margin: 0 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 400;
+    }
+    
+    .mapping_Container{
+        .featured_Mapping{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            box-shadow: 0px 0px 24px darkgray;
+            margin: 12px auto;
+            padding: 12px;
+            width: 50%;
+            a{
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+                text-decoration: none;
+                color: black;
+                img{
+                    width: 60%;
+                    padding: 12px;
+                    
+                 }
+                 h1{
+                    display: flex;
+                    font-size: 14px;
+                    text-align: center;
+                    font-weight: 400;
+                 }
+            }
+             
+             p{
+                margin: 12px;
+                color: darkred;
+                font-weight: 700;
+             }
+             button{
+                margin: 12px;
+                background-color: black;
+                border: none;
+                width: 100px;
+                height: 40px;
+                font-size: 16px;
+                color: white;
+                border-radius: 5%;
+             }
+           } 
+    }
+}
+
+@media  (min-width : 768px) {
+    .featured_Products{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        .featuredimg_container{
+            margin: 24px;
+            width: 90%;
+        }
+        .mapping_Container{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            .featured_Mapping{
+                width: 30%;
+                margin: 24px;
+                justify-content: space-between;
+                a{
+                    img{
+                        height: 200px;
+                        object-fit: contain;
+                    }
+                }
+            }
+        }
+    }   
+}
+
+
+@media  (min-width : 1280px) {
+    .featured_Products{
+        justify-content: center;
+        .featuredimg_container{
+          width: 60%;
+           img{
+            height: 150px;
+            object-fit: cover;
+           }
+        }
+        .mapping_Container{
+            width: 80%;
+            .featured_Mapping{
+            width: 20%;
+            }
+        }
+    }   
+}

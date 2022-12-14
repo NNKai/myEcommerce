@@ -1,0 +1,209 @@
+main {
+  padding-top: 60px;
+}
+main .home_Container {
+  margin-bottom: 12px;
+}
+main .home_Container hr {
+  margin: 12px;
+}
+main .home_Container a {
+  text-decoration: none;
+}
+main .home_Container a .main_Content {
+  margin: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .home_Container a .main_Content img {
+  width: 100%;
+  z-index: -2;
+  box-shadow: 0px 0px 24px rgb(168, 168, 168);
+}
+main .home_Container a .main_Content h3 {
+  font-size: 16px;
+  color: white;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: black;
+  border-radius: 5%;
+  padding: 0 12px;
+  margin-top: 0;
+  margin-bottom: 0;
+  position: absolute;
+  top: 12rem;
+  z-index: -1;
+  opacity: 0.85;
+  font-weight: 400;
+  box-shadow: 0px 0px 24px rgb(85, 85, 85);
+}
+main .home_Container a {
+  text-decoration: none;
+}
+main .home_Container a .men_Fashion {
+  margin: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .home_Container a .men_Fashion img {
+  width: 100%;
+  z-index: -2;
+  box-shadow: 0px 0px 24px rgb(169, 192, 255);
+  height: 9.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .home_Container a .men_Fashion h3 {
+  font-size: 16px;
+  color: white;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: black;
+  border-radius: 5%;
+  padding: 0 12px;
+  margin-top: 0;
+  margin-bottom: 0;
+  position: absolute;
+  top: 23.5rem;
+  z-index: -1;
+  opacity: 0.85;
+  font-weight: 400;
+  box-shadow: 0px 0px 24px rgb(85, 85, 85);
+}
+main .home_Container a {
+  text-decoration: none;
+}
+main .home_Container a .women_Fashion {
+  margin: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .home_Container a .women_Fashion img {
+  width: 100%;
+  z-index: -2;
+  box-shadow: 0px 0px 24px rgb(248, 173, 173);
+  height: 9.5rem;
+  background-size: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .home_Container a .women_Fashion h3 {
+  font-size: 16px;
+  color: white;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: black;
+  border-radius: 5%;
+  padding: 0 12px;
+  margin-top: 0;
+  margin-bottom: 0;
+  position: absolute;
+  top: 33.5rem;
+  z-index: -1;
+  opacity: 0.85;
+  font-weight: 400;
+  box-shadow: 0px 0px 24px rgb(85, 85, 85);
+}
+
+@media (min-width: 425px) {
+  main .home_Container a .main_Content h3 {
+    top: 16rem;
+  }
+  main .home_Container a .women_Fashion h3 {
+    top: 38rem;
+  }
+  main .home_Container a .men_Fashion h3 {
+    top: 28rem;
+  }
+}
+@media (min-width: 768px) {
+  main .home_Container a .main_Content {
+    margin: 24px;
+  }
+  main .home_Container a .main_Content h3 {
+    top: 485px;
+    font-size: 36px;
+    padding: 12px 24px;
+  }
+  main .home_Container a .women_Fashion {
+    margin: 24px;
+  }
+  main .home_Container a .women_Fashion img {
+    height: 20rem;
+  }
+  main .home_Container a .women_Fashion h3 {
+    top: 1175px;
+    font-size: 36px;
+    padding: 12px 24px;
+  }
+  main .home_Container a .men_Fashion {
+    margin: 24px;
+  }
+  main .home_Container a .men_Fashion img {
+    height: 20rem;
+  }
+  main .home_Container a .men_Fashion h3 {
+    top: 830px;
+    font-size: 36px;
+    padding: 12px 24px;
+  }
+}
+@media (min-width: 1280px) {
+  main .home_Container {
+    display: flex;
+    margin-top: 60px;
+    justify-content: center;
+  }
+  main .home_Container a .main_Content {
+    margin: 0;
+    margin-right: 24px;
+  }
+  main .home_Container a .main_Content img {
+    width: 768px;
+    height: 500px;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  main .home_Container a .main_Content h3 {
+    top: 530px;
+  }
+  main .home_Container a .men_Fashion {
+    margin: 0;
+    margin-right: 24px;
+  }
+  main .home_Container a .men_Fashion img {
+    width: 200px;
+    height: 500px;
+  }
+  main .home_Container a .men_Fashion h3 {
+    display: none;
+  }
+  main .home_Container a .women_Fashion {
+    margin: 0;
+  }
+  main .home_Container a .women_Fashion img {
+    width: 200px;
+    height: 500px;
+  }
+  main .home_Container a .women_Fashion h3 {
+    display: none;
+  }
+}/*# sourceMappingURL=Home.css.map */
